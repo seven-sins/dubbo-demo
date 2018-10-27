@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public List<User> find(User user) {
-		return userMapper.find(null);
+		return userMapper.find(user);
 	}
 
 }
