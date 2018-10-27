@@ -9,22 +9,10 @@
 		<artifactId>demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
-	<artifactId>demo-rpc</artifactId>
-	<name>demo-rpc</name>
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-	
+	<artifactId>model</artifactId>
+	<name>model</name>
+
 	<dependencies>
 
-		<dependency>
-			<groupId>com.dubbo.demo</groupId>
-			<artifactId>model</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		
 	</dependencies>
-	
 </project>

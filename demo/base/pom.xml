@@ -9,14 +9,8 @@
 		<artifactId>demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<artifactId>demo-common</artifactId>
-
-	<name>demo-common</name>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	<artifactId>base</artifactId>
+	<name>base</name>
 
 	<dependencies>
 		<dependency>
