@@ -9,42 +9,18 @@
 		<artifactId>demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
-	<artifactId>demo-controller</artifactId>
-	<name>demo-controller</name>
-	
+	<artifactId>demo-topic-rpc</artifactId>
+	<name>demo-topic-rpc</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>com.dubbo.demo</groupId>
-			<artifactId>demo-common</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>com.dubbo.demo</groupId>
-			<artifactId>demo-sys-rpc</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>com.dubbo.demo</groupId>
-			<artifactId>demo-topic-rpc</artifactId>
+			<artifactId>model</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		
 	</dependencies>
-	
-	<build>
-		<finalName>domo-controller</finalName>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 </project>

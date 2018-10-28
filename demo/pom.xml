@@ -107,12 +107,14 @@
 	</build>
 
 
-
 	<modules>
+		<module>model</module>
 		<module>demo-common</module>
-		<module>domo-service</module>
 		<module>demo-controller</module>
-		<module>demo-rpc</module>
 		<module>base</module>
-  </modules>
+    	<module>demo-sys-service</module>
+    	<module>demo-sys-rpc</module>
+    	<module>demo-topic-rpc</module>
+    	<module>demo-topic-service</module>
+	</modules>
 </project>
